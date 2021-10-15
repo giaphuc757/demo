@@ -6,19 +6,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white">
+    <TextView
+        android:textColor="@color/purple_700"
+        android:text="Gia Phúc"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <RadioGroup
-            android:id="@+id/gcheck"
             android:gravity="right"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <RadioButton
-               android:id="@+id/check1"
+                android:id="@+id/check1"
                 android:buttonTint="#E60C0C"
                 android:textColor="@color/black"
                 android:text="Red"
@@ -28,7 +33,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:checked="false"
                 android:id="@+id/check2"
                 android:buttonTint="#3D5AFE"
                 android:textColor="@color/black"
@@ -38,7 +42,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <RadioButton
-                android:checked="false"
                 android:id="@+id/check3"
                 android:buttonTint="#E4D2D2"
                 android:textColor="@color/black"
@@ -58,12 +61,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
-        <TextView
-            android:textColor="@color/purple_700"
-            android:text="Gia Phúc"
-            android:textSize="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
         <Button
             android:id="@+id/setcolor"
             android:text="Set Color"
@@ -81,13 +78,15 @@
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-    <TextView
+
+    <EditText
+        android:background="#EADDDD"
         android:id="@+id/txtview"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="246dp">
 
-    </TextView>
+    </EditText>
 
 
 
